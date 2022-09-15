@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2E register test">
+    <test name="Running Official e2e register">
+        <groups>
+            <run>
+                <include name="e2e">
+                </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.RegisterTest">
+            </class>
+        </classes>
+    </test>
+</suite>
